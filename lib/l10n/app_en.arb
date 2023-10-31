@@ -1,0 +1,57 @@
+{
+    "language": "English",
+    "@language": {
+        "description":"The Current language"
+    },
+     "lang":"Language",
+    "settings":"Settings",
+    "home":"Home",
+    "new_friends":"New Friends",
+    "chat":"Chat",
+    "profile":"Profile",
+    "follower": "Followers",
+    "followed": "Follow",
+    "favorite_books": "Favorite Books",
+    "readed_books": "Readed Books",
+    "reading_books": "Reading Books",
+    "message": "Message",
+    "follow": "Follow",
+    "unfollow": "unFollow",
+    "username": "Username",
+    "email": "Email",
+    "who_reading": "Who Reading",
+    "books": "Books",
+    "search_book": "Search Book",
+    "author": "Author",
+    "book_reviews": "Book Reviews",
+    "comment": "Comment",
+    "send_comment": "Sent Comment",
+    "login": "Log In",
+    "password": "Password",
+    "forgot_password": "Forgot Password",
+    "signup": "Sign Up",
+    "fullname": "Full Name",
+    "haveaccount": "Already have an account?",
+    "haveaproblem": "Have a problem",
+    "forgotemailsend": "Email password has been sent",
+    "usernotfound": "No user found for that email",
+    "wrongpassword": "Wrong password provided for that user",
+    "weekpassword":"The password provided is too weak",
+    "emailalready": "The account already exists for that email",
+    "emailempty": "Please enter your email",
+    "emailcorrect": "Enter the email correctly",
+    "passwordempty": "Please enter your password",
+    "passwordcorrect": "Password must be at least 6 characters long",
+    "fullnameempty": "Please enter your name"
+    
+    
+    
+    
+    
+    
+
+
+
+    
+
+}

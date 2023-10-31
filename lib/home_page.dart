@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:readify/profile_page.dart';
-import 'package:readify/message_page.dart';
-import 'package:readify/notification_page.dart';
-import 'package:readify/search_page.dart';
+import 'profile_page.dart';
+import 'message_page.dart';
+import 'notification_page.dart';
+import 'search_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -27,9 +27,9 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Row(
+        title: const Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
+          children: [
             Icon(Icons.book, color: Colors.black,),
             Text(
                 'Readify',
