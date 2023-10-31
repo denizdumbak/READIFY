@@ -1,2 +1,1 @@
-# Readify
-A Social Library
+
