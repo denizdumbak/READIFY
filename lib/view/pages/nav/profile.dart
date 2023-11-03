@@ -5,7 +5,7 @@ import 'package:readify/services/getBookInfo.dart';
 import 'package:readify/view/auth/login.dart';
 import 'package:readify/view/pages/nav/homepage.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import '../../../services/getBooks.dart';
+
 
 
 class ProfileScreen extends StatefulWidget {
@@ -37,7 +37,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           followers = followersData.length.toString();
           List followedData = querySnapshot.get("followed");
           favBooks = querySnapshot.get("favBooks");
-          readedBooks = querySnapshot.get("readedBooks");
+          readedBooks = querySnapshot.get("readBooks");
           readingBooks = querySnapshot.get("readingBooks");
           followed = followedData.length.toString();
           card.clear();
