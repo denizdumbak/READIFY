@@ -37,7 +37,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           followers = followersData.length.toString();
           List followedData = querySnapshot.get("followed");
           favBooks = querySnapshot.get("favBooks");
-          readedBooks = querySnapshot.get("readedBooks");
+          readedBooks = querySnapshot.get("readBooks");
           readingBooks = querySnapshot.get("readingBooks");
           followed = followedData.length.toString();
           card.clear();
